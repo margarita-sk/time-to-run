@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.springframework.boot' version '3.1.0'
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'application'
+
+group = 'com.mskokava'
+
+dependencies {
+    implementation project(':timetorun-api')
+    implementation project(':timetorun-core')
+}
+
+application {
+    mainClassName = 'org.example.TimetorunApplication'
+}
+
+bootRun {
+    workingDir("..")
+    environment = System.getenv()
+}
