@@ -1,0 +1,4 @@
+rootProject.name = 'timetorun'
+include 'timetorun-application'
+include 'timetorun-api'
+include 'timetorun-core'
