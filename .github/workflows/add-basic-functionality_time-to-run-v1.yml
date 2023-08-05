@@ -50,4 +50,4 @@ jobs:
           app-name: 'time-to-run-v1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9FB8F073EDB94468807C433F2E37603A }}
-          package: '**/timetorun-application/build/libs/timetorun-application.jar'
+          package: '*.jar'
