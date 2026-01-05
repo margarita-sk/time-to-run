@@ -23,7 +23,7 @@ subprojects {
 //		implementation 'org.springframework.boot:spring-boot-starter-security'
 //		implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
         implementation 'org.springframework.boot:spring-boot-autoconfigure'
-        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        implementation 'org.springframework.boot:spring-boot-actuator'
 
         implementation 'org.modelmapper:modelmapper:2.4.3'
         implementation 'org.springframework.boot:spring-boot-starter-json'
