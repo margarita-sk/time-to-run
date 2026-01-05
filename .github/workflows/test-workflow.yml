@@ -4,7 +4,6 @@ on: issue_comment
 
 jobs:
   trigger:
-    if: ${{ github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
       - run: |
