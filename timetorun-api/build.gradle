@@ -1,3 +1,8 @@
 dependencies {
     implementation project(':timetorun-core')
 }
+
+bootJar {
+    enabled = false
+}
+
