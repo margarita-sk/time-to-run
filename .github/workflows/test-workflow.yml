@@ -6,6 +6,7 @@ on:
 
 jobs:
   trigger:
+    if: github.event.issue.pull_request && contains(github.event.comment.body, '/karate')
     runs-on: ubuntu-latest
     steps:
       - run: |
